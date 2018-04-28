@@ -11,4 +11,4 @@ namespace mat
   /- Multiply matrix with a vector. -/
   const mult :
     Π (α : Type u) (m : ℕ) (n : ℕ), mat α m n →  vec α n → vec α b
-end vec
+end mat
