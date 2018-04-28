@@ -11,4 +11,8 @@ namespace vec
     Π (α : Type u) (n : ℕ), α → vec α n → vec α (n + 1)
   constant append :
     Π (α : Type u) (n m : ℕ),  vec α m → vec α n → vec α (n + m)
+  constant add :
+    Π (α : Type u) (n : ℕ), vec α n → vec α n → vec α n
+  const reverse :
+    Π (α : Type u) (n : ℕ), vec α n → vec α n
 end vec
