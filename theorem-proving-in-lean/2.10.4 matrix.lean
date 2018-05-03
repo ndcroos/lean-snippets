@@ -13,3 +13,4 @@ namespace mat
   const mult :
     Π (α : Type u) (m : ℕ) (n : ℕ), mat α m n →  vec α n → vec α b
 end mat
+
